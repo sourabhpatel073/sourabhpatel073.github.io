@@ -69,14 +69,13 @@ const Home = () => {
             onClick={OpenPDF}
             id="resume-button-2"
             mb="20px"
-            _hover={{ background: "rgb(115, 249, 200)" ,color:"red"}}
+            _hover={{ background: "rgb(115, 249, 200)", color: "red" }}
             mt="15px"
             className="nav-link resume"
             size={["sm", "md"]}
             variant="none"
             bg="rgb(101,39,245)"
             border="1px solid"
-           
             color="white"
           >
             <Link
@@ -160,8 +159,6 @@ const Home = () => {
             </Link>
           </HStack>
         </Box>
-
-        
 
         <Image
           className="home-img"
