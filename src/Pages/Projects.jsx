@@ -115,7 +115,7 @@ const non_Responsive_Projects = [
 
     netlify: "https://startling-cucurucho-fd5304.netlify.app/",
 
-    github: "https://github.com/sourabhpatel073/-harsh-cream-7809/tree/main/my-app",
+    github: "https://github.com/sourabhpatel073/-harsh-cream-7809",
 
     isOnGithub: true,
   },
@@ -173,8 +173,8 @@ const Projects = () => {
                 bg="blue.700"
                 px="10px"
                 py="25px"
-              w={"80%"}
-              m={"auto"}>
+                w={"80%"}
+               m={"auto"}>
                 {/* visible on tablet,mobile screen description box */}
 
                 <Box
