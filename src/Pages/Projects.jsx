@@ -27,7 +27,7 @@ const Responsive_Projects = [
     clone: "clone : Shopclues",
 
     description:
-      "It is an E-commerce .",
+      "It is an Online E-Commerce Web application, which provides a variety of dressing and daily need Products.",
 
     tech_stack: [
       { skill: "HTML.png", w: "20px" },
@@ -57,7 +57,7 @@ const Responsive_Projects = [
     tech_stack: [
       { skill: "HTML.png", w: "20px" },
       { skill: "CSS.png", w: "25px" },
-      { skill: "Javascript", w: "25px" },
+      { skill: "Javascript.png", w: "25px" },
       // { skill: "React.png", w: "25px" },
       // { skill: "react-router.png", w: "25px" },
     ],
@@ -79,7 +79,7 @@ const non_Responsive_Projects = [
     clone: "",
 
     description:
-      "It is a global luxury fashion online marketplace that connects customers with a curated selection of products from a network of independent luxury boutiques and designer brands.",
+      "Expedia.com is an online travel agency to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages.",
 
     tech_stack: [
       { skill: "HTML.png", w: "20px" },
@@ -104,7 +104,7 @@ const non_Responsive_Projects = [
     clone: "clone : snapdeal",
 
     description:
-      "It is an E-commerce.",
+      "It Snapdeal is an Indian e-commerce company  operating an online marketplace for products such as mobile devices, electronics, apparel and accessories.",
 
     tech_stack: [
       { skill: "HTML.png", w: "20px" },
