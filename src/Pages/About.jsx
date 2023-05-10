@@ -15,7 +15,7 @@ const About = () => {
       className="about section"// className="about section"try to  remove for testing    
       mb="40px"
     >                        
-      <Heading mt="150px" color="rgb(0, 255, 162);" fontSize={35}>
+      <Heading mt="100px" color="rgb(0, 255, 162);" fontSize={35}>
         <Text as="span" color="white">
           About
         </Text>{" "}
@@ -37,7 +37,7 @@ const About = () => {
         mt="20px"
       >
         <Text mt="15px" fontSize="16px" id="user-detail-intro">
-        Aspiring Full Stack Web Developer MERN .High Adaptability to learn
+        Aspiring Full Stack Web Developer MERN .Skilled in JavaScript, React, Redux ,Node JS , Express MongoDB .High Adaptability to learn
             and collaborate in a rapidly changing environment and compositions.
             Eager to obtain a challenging position Which will help to expand
             learning and build skills.

@@ -1,5 +1,11 @@
 import React from "react";
 
+
+//<Button onClick={()=>{window.open(github,"_blank")}} className="project-github-link" variant="solid" bg="brand.500" color="brand.300" _hover={{ bg: "brand.400", color: "white" }} size={{base: "sm", md: "md"}}>
+// Source Code
+// </Button>
+
+
 import {
   Box,
   Heading,
@@ -27,14 +33,14 @@ const Responsive_Projects = [
     clone: "clone : Shopclues",
 
     description:
-      "It is an Online E-Commerce Web application, which provides a variety of dressing and daily need Products.",
+      "It is an online platform that allows businesses to sell their products and services directly to consumers over the internet. It typically includes a catalog of products or services that customers can browse, select and purchase, along with features such as shopping cart, checkout, and payment processing.",
 
     tech_stack: [
-      { skill: "HTML.png", w: "20px" },
-      { skill: "CSS.png", w: "25px" },
-      { skill: "Chakra ui.png", w: "25px" },
-      { skill: "React.png", w: "25px" },
-      { skill: "react-router.png", w: "25px" },
+      { skill: "HTML.png", w: "30px" },
+      { skill: "CSS.png", w: "35px" },
+      { skill: "Chakra ui.png", w: "35px" },
+      { skill: "React.png", w: "35px" },
+      { skill: "react-router.png", w: "35px" },
     ],
 
     netlify: "https://onlinebazar-3tv4eaj6z-sourabhpatel073.vercel.app/",
@@ -52,12 +58,12 @@ const Responsive_Projects = [
     // clone: "clone : Nykaa",
 
     description:
-      "It is a leading Indian e-commerce platform that specializes in clothes and wellness products.",
+      "It is a E-commerce websites that sell clothing and fashion typically offer a variety of styles to suit different tastes and preferences. Customers can browse through product catalogs and filter items by category, size, color, and other features to find the perfect item.",
 
     tech_stack: [
-      { skill: "HTML.png", w: "20px" },
-      { skill: "CSS.png", w: "25px" },
-      { skill: "Javascript.png", w: "25px" },
+      { skill: "HTML.png", w: "30px" },
+      { skill: "CSS.png", w: "35px" },
+      { skill: "Javascript.png", w: "35px" },
       // { skill: "React.png", w: "25px" },
       // { skill: "react-router.png", w: "25px" },
     ],
@@ -82,9 +88,9 @@ const non_Responsive_Projects = [
       "Expedia.com is an online travel agency to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages.",
 
     tech_stack: [
-      { skill: "HTML.png", w: "20px" },
-      { skill: "CSS.png", w: "25px" },
-      { skill: "Javascript.png", w: "25px" },
+      { skill: "HTML.png", w: "30px" },
+      { skill: "CSS.png", w: "35px" },
+      { skill: "Javascript.png", w: "35px" },
     ],
 
     netlify: "https://sunny-dragon-dfd25b.netlify.app/",
@@ -104,13 +110,13 @@ const non_Responsive_Projects = [
     clone: "clone : snapdeal",
 
     description:
-      "It Snapdeal is an Indian e-commerce company  operating an online marketplace for products such as mobile devices, electronics, apparel and accessories.",
+      " It is an Indian e-commerce company  operating an online marketplace for products such as mobile devices, electronics, apparel and accessories,offering a wide range of products and features to enhance the online shopping experience.",
 
     tech_stack: [
-      { skill: "HTML.png", w: "20px" },
-      { skill: "CSS.png", w: "25px" },
-      { skill: "Javascript.png", w: "25px" },
-      { skill: "React.png", w: "25px" },
+      { skill: "HTML.png", w: "30px" },
+      { skill: "CSS.png", w: "35px" },
+      { skill: "Javascript.png", w: "35px" },
+      { skill: "React.png", w: "35px" },
     ],
 
     netlify: "https://startling-cucurucho-fd5304.netlify.app/",
@@ -182,11 +188,11 @@ const Projects = () => {
                   display={{ base: "flex", "1349px": "none" }}
                 >
                   <HStack justify="center">
-                    <Heading className="project-title" fontSize={"23px"}>
+                    <Heading className="project-title" fontSize={"30px"}>
                       {el.title}
                     </Heading>
 
-                    <Badge fontSize={10} colorScheme={"green"}>
+                    <Badge fontSize={12} colorScheme={"green"}>
                       {el.clone}
                     </Badge>
                   </HStack>
@@ -234,19 +240,19 @@ const Projects = () => {
                           border="2px solid"
                           borderRadius={"10px"}
                           bg="white"
-                          w="50px"
+                          w="80px"
                           src="Netlify logo.png"
                         ></Image>
                       </Link>
 
                       <ExternalLinkIcon zIndex="2" />
 
-                      <Link isExternal href={el.github}>
+                      <Link isExternal href={el.github} className="project-github-link">
                         <Image
                           bg="white"
                           _hover={{ cursor: "pointer" }}
                           borderRadius={"10px"}
-                          w="30px"
+                          w="40px"
                           src="github.png"
                         ></Image>
                       </Link>
@@ -358,7 +364,7 @@ const Projects = () => {
 
                   <Box display={{ base: "none", "1349px": "block" }}>
                     <HStack>
-                      <Heading className="project-title" fontSize={"23px"}>
+                      <Heading className="project-title" fontSize={"30px"}>
                         {el.title}
                       </Heading>
 
@@ -405,7 +411,7 @@ const Projects = () => {
                             border="2px solid"
                             borderRadius={"10px"}
                             bg="white"
-                            w="50px"
+                            w="80px"
                             src="Netlify logo.png"
                           ></Image>
                         </Link>
@@ -421,7 +427,7 @@ const Projects = () => {
                             borderRadius="40px"
                             bg="white"
                             _hover={{ cursor: "pointer" }}
-                            w="30px"
+                            w="40px"
                             src="github.png"
                           ></Image>
                         </Link>
@@ -454,7 +460,7 @@ const Projects = () => {
                   display={{ base: "flex", "1349px": "none" }}
                 >
                   <HStack justify="center">
-                    <Heading className="project-title" fontSize={"23px"}>
+                    <Heading className="project-title" fontSize={"30px"}>
                       {el.title}
                     </Heading>
 
@@ -500,26 +506,26 @@ const Projects = () => {
                     </Text>
 
                     <HStack mt="10px">
-                      <Link isExternal href={el.netlify}>
+                      <Link isExternal href={el.netlify} className="project-deployed-link">
                         <Image
                           _hover={{ cursor: "pointer" }}
                           border="2px solid"
                           borderRadius={"10px"}
                           bg="white"
-                          w="50px"
+                          w="80px"
                           src="Netlify logo.png"
                         ></Image>
                       </Link>
 
                       <ExternalLinkIcon zIndex="2" />
 
-                      <Link isExternal href={el.github}>
+                      <Link isExternal href={el.github} className="project-github-link">
                         <Image
                           visibility={el.isOnGithub ? "visible" : "hidden"}
                           borderRadius="40px"
                           bg="white"
                           _hover={{ cursor: "pointer" }}
-                          w="30px"
+                          w="40px"
                           src="github.png"
                         ></Image>
                       </Link>
