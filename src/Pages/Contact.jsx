@@ -62,7 +62,7 @@ const Contact = () => {
                 transform: "scale(1.1)",
                 transition: "all 0.4s",
               }}
-              w="40px"
+              w="30px"
               src="github.png"
             ></Image>{" "}
           </Link>
@@ -135,7 +135,7 @@ const Contact = () => {
          
         </Box>
 
-        <Box display="flex" m={"auto"} paddingLeft="50px">
+        <Box display="flex" m={"auto"} paddingLeft="60px">
           
           <Link id="contact-phone" isExternal href="tel:8982817857">
             {" "}
@@ -145,7 +145,7 @@ const Contact = () => {
                 transform: "scale(1.1)",
                 transition: "all 0.4s",
               }}
-              w="35px"
+              w="25px"
               src="Phone.png"
             ></Image>{" "}
           </Link>

@@ -51,7 +51,7 @@ const Navbar = () => {
     >
       <HStack
         m="auto"
-        w={{ base: "95%", "587px": "90%", "1120px": "80%" }}
+        w={{ base: "95%", "587px": "90%", "1120px": "85%" }}
         justify="space-between"
       >
         <IconButton

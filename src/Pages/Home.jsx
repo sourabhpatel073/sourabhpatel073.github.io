@@ -19,7 +19,7 @@ const Home = () => {
   };
 
   return (
-    <Box mt="-90px" border="2px solid rgb(1, 16, 27)" id="home" mb="30px">
+    <Box mt="-90px" border="2px solid rgb(1, 16, 27)" id="home" mb="30px" paddingLeft={"5%"} paddingRight={"5%"}>
       {/* //mt = {{base : '20px','456px' : '25px','612px' : '30px','735px' : '40px', '934px':'100px'}} */}
 
       <HStack
@@ -59,10 +59,7 @@ const Home = () => {
           </Heading>
 
           <Text mt="15px" fontSize="15px" id="user-detail-intro">
-            Aspiring Full Stack Web Developer MERN .High Adaptability to learn
-            and collaborate in a rapidly changing environment and compositions.
-            Eager to obtain a challenging position Which will help to expand
-            learning and build skills.
+          An Aspiring Full Stack MERN Web Developer.High Adaptability to learn and collaborate in a rapidly changing environment and compositions. Being eager to obtain a challenging position will help expand learning and build skills.
           </Text>
 
           <Button
@@ -119,7 +116,7 @@ const Home = () => {
                   transform: "scale(1.1)",
                   transition: "all 0.4s",
                 }}
-                w="40px"
+                w="30px"
                 src="github.png"
               ></Image>{" "}
             </Link>

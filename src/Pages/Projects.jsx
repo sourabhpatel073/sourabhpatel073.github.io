@@ -24,16 +24,16 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const Responsive_Projects = [
   {
-    pc_screenshot: "online bazaar desktop.png",
+    pc_screenshot: "trendifyDesk.png",
 
-    mobile_screenshot: "online bazaar tab.jpeg",
+    mobile_screenshot: "trendifyMob.png",
 
-    title: "Online Bazaar ",
+    title: "Trendify",
 
     clone: "clone : Shopclues",
 
     description:
-      "It is an online platform that allows businesses to sell their products and services directly to consumers over the internet. It typically includes a catalog of products or services that customers can browse, select and purchase, along with features such as shopping cart, checkout, and payment processing.",
+      "Trendify is an E-commerce website inspired by Shopclues.com. It is a Lifestyle Accessories Brand that curates stunning designs and prints them on a wide range of personal accessories.",
 
     tech_stack: [
       { skill: "HTML.png", w: "30px" },
@@ -43,7 +43,32 @@ const Responsive_Projects = [
       { skill: "react-router.png", w: "35px" },
     ],
 
-    netlify: "https://onlinebazar-3tv4eaj6z-sourabhpatel073.vercel.app/",
+    netlify: "https://trendify-website.vercel.app/",
+
+    github: "https://github.com/sourabhpatel073/Trendify",
+  },
+
+  {
+    pc_screenshot: "online bazaar desktop.png",
+
+    mobile_screenshot: "online bazaar tab.jpeg",
+
+    title: "Online Bazaar ",
+
+
+
+    description:
+      "It is an online platform that allows businesses to sell their products and services directly to consumers over the Internet. It typically includes a catalog of products or services that customers can browse, select and purchase, along with features such as a shopping cart, checkout, and payment processing.",
+
+    tech_stack: [
+      { skill: "HTML.png", w: "30px" },
+      { skill: "CSS.png", w: "35px" },
+      { skill: "Chakra ui.png", w: "35px" },
+      { skill: "React.png", w: "35px" },
+      { skill: "react-router.png", w: "35px" },
+    ],
+
+    netlify: "https://onlinebazar.vercel.app/",
 
     github: "https://github.com/sourabhpatel073/busy-industry-7181",
   },
@@ -58,7 +83,7 @@ const Responsive_Projects = [
     // clone: "clone : Nykaa",
 
     description:
-      "It is a E-commerce websites that sell clothing and fashion typically offer a variety of styles to suit different tastes and preferences. Customers can browse through product catalogs and filter items by category, size, color, and other features to find the perfect item.",
+      "It is an E-commerce website that sells clothing and fashion typically offering a variety of styles to suit different tastes and preferences. Customers can browse through product catalogs and filter items by category, size, color, and other features to find the perfect item.",
 
     tech_stack: [
       { skill: "HTML.png", w: "30px" },
@@ -110,7 +135,7 @@ const non_Responsive_Projects = [
     clone: "clone : snapdeal",
 
     description:
-      " It is an Indian e-commerce company  operating an online marketplace for products such as mobile devices, electronics, apparel and accessories,offering a wide range of products and features to enhance the online shopping experience.",
+      "It is an Indian e-commerce company operating an online marketplace for products such as mobile devices, electronics, apparel, and accessories, offering a wide range of products and features to enhance the online shopping experience.",
 
     tech_stack: [
       { skill: "HTML.png", w: "30px" },
@@ -411,7 +436,7 @@ const Projects = () => {
                             border="2px solid"
                             borderRadius={"10px"}
                             bg="white"
-                            w="80px"
+                            w="40px"
                             src="Netlify logo.png"
                           ></Image>
                         </Link>
