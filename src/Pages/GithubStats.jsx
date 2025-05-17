@@ -19,11 +19,12 @@ export const GithubStats = () => {
       <Heading color = 'rgb(0, 255, 162);' fontSize={35}> <Text as = 'span' color = 'white'>Github</Text> Calender</Heading>
 
 
-          <VStack mt = '70px'>
+      <a href="https://github.com/sourabhpatel073" target="_blank" rel="noopener noreferrer">
+  <VStack mt='70px'>
+    <GitHubCalendar username="sourabhpatel073"></GitHubCalendar>
+  </VStack>
+</a>
 
-            <GitHubCalendar username="sourabhpatel073"></GitHubCalendar>
-
-          </VStack>
 
 
           <Heading mt ='50px' color = 'rgb(0, 255, 162);' fontSize={35}> <Text as = 'span' color = 'white'>Github</Text> Stats</Heading>

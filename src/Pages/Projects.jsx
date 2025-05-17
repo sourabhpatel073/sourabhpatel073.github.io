@@ -186,7 +186,7 @@ const Projects = () => {
     <Box border={"2px solid rgb(1, 16, 27)"} pb="100px" id="projects">
       {/* green border to below box */}
 
-      <Box mt="110px">
+      <Box mt="50px">
         <Heading color="rgb(0, 255, 162);" fontSize={35}>
           {" "}
           <Text as="span" color="white">

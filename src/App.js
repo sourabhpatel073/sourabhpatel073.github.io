@@ -8,6 +8,7 @@ import { GithubStats } from './Pages/GithubStats';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import  Skills  from './Pages/Skills';
+import GAIProjects from './Pages/GAI';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <GAIProjects/>
       <Projects/>
       <GithubStats />
       <Contact/>

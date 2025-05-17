@@ -59,7 +59,12 @@ const Home = () => {
           </Heading>
 
           <Text mt="15px" fontSize="15px" id="user-detail-intro">
-          An Aspiring Full Stack MERN Web Developer.High Adaptability to learn and collaborate in a rapidly changing environment and compositions. Being eager to obtain a challenging position will help expand learning and build skills.
+          Dynamic full-stack developer skilled in the MERN stack and wellversed with Generative AI integrations. Combines frontend
+prowess with robust server-side API creation and AI-driven
+solutions, always pushing the envelope of modern web trends.
+Expert in implementing Prompt Engineering techniques, valuing
+both the precision of technology and the collaborative spirit of
+teamwork.
           </Text>
 
           <Button
