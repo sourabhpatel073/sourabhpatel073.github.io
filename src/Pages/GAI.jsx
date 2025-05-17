@@ -19,6 +19,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const Responsive_Projects = [
   // {
+  
   //   pc_screenshot: "friendAIDEC.png",
 
   //   mobile_screenshot: "friendAImob.png",
